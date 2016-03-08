@@ -1,0 +1,41 @@
+{
+  "name": "css-ast-diff",
+  "version": "1.0.0",
+  "description": "Diffs CSS files by parsing into AST, sorting, and finding functional differences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cshaver/css-ast-diff.git"
+  },
+  "keywords": [
+    "css",
+    "ast",
+    "diff",
+    "node",
+    "npm"
+  ],
+  "author": "Cristina Shaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cshaver/css-ast-diff/issues"
+  },
+  "homepage": "https://github.com/cshaver/css-ast-diff#readme",
+  "bin": {
+    "css-diff": "index.js"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "colors": "^1.1.2",
+    "css": "^2.2.1",
+    "fs": "0.0.2",
+    "node-diff": "^0.2.0",
+    "path": "^0.12.7",
+    "svn": "^0.2.0",
+    "svn-interface": "^0.5.0",
+    "util": "^0.10.3",
+    "yargs": "^4.2.0"
+  }
+}
