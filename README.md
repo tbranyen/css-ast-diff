@@ -1,6 +1,6 @@
 # css-ast-diff
 
-A tool for diffing CSS files by parsing them into Abstract Syntax Trees using [reworkcss/css](https://github.com/reworkcss/css), sorting them, and comparing the stringified output. Useful for finding *functional* changes in CSS built from a preprocessor such as [SASS](http://sass-lang.com/).
+A tool for diffing CSS files by parsing them into Abstract Syntax Trees using [reworkcss/css](https://github.com/reworkcss/css), sorting them, and comparing the stringified output. Useful for finding functional changes in CSS built from a preprocessor such as [SASS](http://sass-lang.com/).
 
 ## Installation
 
@@ -18,7 +18,7 @@ Compare a file to the latest commit on HEAD of its git repository (i.e. `git dif
 css-ast-diff build/style.css
 ```
 
-Compare a file to the original file in the SVN working copy):
+Compare a file to the original file in the SVN working copy:
 
 ```
 css-ast-diff --svn build/style.css
