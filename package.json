@@ -1,6 +1,6 @@
 {
   "name": "css-ast-diff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Diffs CSS files by parsing into AST, sorting, and finding functional differences",
   "main": "index.js",
   "scripts": {
