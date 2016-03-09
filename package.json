@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/cshaver/css-ast-diff#readme",
   "bin": {
-    "css-diff": "./bin/index.js"
+    "css-ast-diff": "./bin/index.js"
   },
   "files": [
     "LICENSE",
