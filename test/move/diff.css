@@ -1,0 +1,33 @@
+/**
+ * Comments!
+ * The rules have been rearranged, but nothing has effectively changed
+ * This should output no differences
+ */
+
+p {
+  color: purple !important;
+}
+
+body {
+  background: red;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 600px) {
+  div {
+    margin: 0 auto;
+    text-decoration: underline;;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background: green;
+    font-size: 21px;
+  }
+}
+
+* {
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}

@@ -1,0 +1,48 @@
+/**
+ * Comments are totally ignored!
+ */
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: red;
+  font-size: 18px;
+}
+
+/* this body selector and its declarations will be merged with the one above */
+body {
+  background: orange;
+  background: yellow;
+  background: green;
+  background: blue;
+  background: indigo;
+  background: violet;
+}
+
+p {
+  color: purple !important;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background: green;
+    font-size: 21px;
+  }
+}
+
+/* this duplicate media query will be merged with the one above */
+@media screen
+       and (min-width: 600px) {
+  div {
+    margin: 0 auto;
+    text-decoration: underline;;
+  }
+}
+
+/* this p selector will be merged with the one above */
+p {
+  color: pink;
+}
