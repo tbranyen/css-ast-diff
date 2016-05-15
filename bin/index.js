@@ -11,8 +11,9 @@ if (debug) {
 
 const cli = require('../lib/cli');
 
-exitCode = cli.execute(process.argv);
-
-process.on('exit', function() {
+cli.execute(process.argv, function(err, exitCode) {
+  if (err) {
+    console.error(err);
+  }
   process.exit(exitCode);
 });
