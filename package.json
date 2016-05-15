@@ -26,7 +26,7 @@
   "bin": {
     "css-ast-diff": "./bin/index.js"
   },
-  "main": "./lib/css-ast-diff.js",
+  "main": "./lib/api.js",
   "files": [
     "LICENSE",
     "README.md",
