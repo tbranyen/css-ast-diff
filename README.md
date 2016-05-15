@@ -1,9 +1,11 @@
 # css-ast-diff
 
+[![GitHub version](https://badge.fury.io/gh/cshaver%2Fcss-ast-diff.svg)](https://badge.fury.io/gh/cshaver%2Fcss-ast-diff)
+[![npm version](https://badge.fury.io/js/css-ast-diff.svg)](https://badge.fury.io/js/css-ast-diff)  
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/cshaver/css-ast-diff.svg)](http://isitmaintained.com/project/cshaver/css-ast-diff "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/cshaver/css-ast-diff.svg)](http://isitmaintained.com/project/cshaver/css-ast-diff "Percentage of issues still open")  
 [![Build Status](https://travis-ci.org/cshaver/css-ast-diff.svg)](https://travis-ci.org/cshaver/css-ast-diff "Build Status")
 [![Coverage Status](https://coveralls.io/repos/github/cshaver/css-ast-diff/badge.svg?branch=master)](https://coveralls.io/github/cshaver/css-ast-diff?branch=master)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/cshaver/css-ast-diff.svg)](http://isitmaintained.com/project/cshaver/css-ast-diff "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/cshaver/css-ast-diff.svg)](http://isitmaintained.com/project/cshaver/css-ast-diff "Percentage of issues still open")
 
 A tool for diffing CSS files by parsing them into Abstract Syntax Trees using [reworkcss/css](https://github.com/reworkcss/css), sorting them, and comparing the stringified output. Useful for finding functional changes in CSS built from a preprocessor such as [SASS](http://sass-lang.com/).
 
