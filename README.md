@@ -37,6 +37,12 @@ Compare two files:
 css-ast-diff style-new.css style-old.css
 ```
 
+Compare two files with absolute paths:
+
+```
+css-ast-diff --absolute-paths ~/Desktop/style-new.css ~/Desktop/style-old.css
+```
+
 ## Examples
 
 Comparing files with rules simply rearranged should yield no differences:
