@@ -41,7 +41,7 @@
     "es6-object-assign": "^1.1.0",
     "fs": "0.0.2",
     "node-diff": "^0.2.0",
-    "nodegit": "^0.18.0",
+    "nodegit": "^0.19.0",
     "optionator": "^0.8.2",
     "path": "^0.12.7",
     "svn": "^0.2.0",
