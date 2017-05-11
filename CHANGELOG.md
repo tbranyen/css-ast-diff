@@ -4,7 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## 1.1.0
+## 1.1.1 - 2017-05-11
+### Added
+- Option for diff output type as `hunks`, `patch`, or `changes`
+- Option to write diff output to file
+- Testing with mocha
+- Node v0.12 Support
+
+### Fixed
+- More debugger debugging
+
+## 1.1.0 - 2017-01-11
 ### Added
 - Option to output diff to file
 - Simple test cases
@@ -24,6 +34,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## 1.0.1 - 2016-03-09
 
 [Unreleased]: https://github.com/cshaver/css-ast-diff/compare/master...develop
+[1.1.1]: https://github.com/cshaver/css-ast-diff/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/cshaver/css-ast-diff/compare/v1.0.6...v1.1.0
 [1.0.6]: https://github.com/cshaver/css-ast-diff/compare/v1.0.5...v1.0.6
 [1.0.5]: https://github.com/cshaver/css-ast-diff/compare/v1.0.4...v1.0.5
 [1.0.4]: https://github.com/cshaver/css-ast-diff/compare/v1.0.3...v1.0.4
