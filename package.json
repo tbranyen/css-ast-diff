@@ -1,6 +1,6 @@
 {
   "name": "css-ast-diff",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Diffs CSS files by parsing into AST, sorting, and finding functional differences",
   "scripts": {
     "test": "mocha --harmony"
