@@ -36,13 +36,13 @@
     "async": "^1.5.2",
     "colors": "^1.1.2",
     "css": "^2.2.1",
-    "debug": "^2.2.0",
-    "diff": "^2.2.1",
-    "es6-object-assign": "^1.0.3",
+    "debug": "^2.6.6",
+    "diff": "^2.2.3",
+    "es6-object-assign": "^1.1.0",
     "fs": "0.0.2",
     "node-diff": "^0.2.0",
-    "nodegit": "0.18.0",
-    "optionator": "^0.8.1",
+    "nodegit": "^0.18.0",
+    "optionator": "^0.8.2",
     "path": "^0.12.7",
     "svn": "^0.2.0",
     "svn-interface": "^0.5.0",
@@ -50,6 +50,6 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.3.0"
   }
 }
